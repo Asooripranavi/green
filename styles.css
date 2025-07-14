@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(12, 162, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.item-container {
+    height: 450px;
+    width: 470px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    box-shadow: 1px 3px 5px black;
+    margin-left: 300px;
+}
+
+.item-name {
+    margin-bottom: -20px;
+}
+
+.item-price {
+    color: red;
+}
+
+.item-price span {
+    color: red;
+    font-size: 35px;
+}
+
+.color-options img {
+    height: 25px;
+}
+
+.selected {
+    border: 1px solid black;
+}
+
+h4 {
+    color: grey;
+}
+
+.color-selector h4 {
+    margin-bottom: 20px;
+}
+
+.color-selector {
+    margin-bottom: -15px;
+}
+
+.cart-button {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px black;
+}
+
+.image-section {
+    background-color: rgb(82, 237, 82);
+    height: 350px;
+    width: 250px;
+    transform: translate(-600px);
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px black;
+}
+
+.apple-image {
+    height: 250px;
+    width: 250px;
+    margin-left: -40px;
+}
+
+.sliced-images {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 10px; 
+}
+
+.small-apple {
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.share{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.icon-group i {
+    color: white;
+}
